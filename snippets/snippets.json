@@ -1,0 +1,34 @@
+{
+	"definition": {
+		"prefix": [".def", "def"],
+		"scope": "runnr",
+		"body": [
+			".def $1 {",
+			"\t$0",
+			"}"
+		],
+		"description": "Define the modifiers of an extension"
+	},
+	
+	"declare": {
+		"prefix": [".declare", "declare"],
+		"scope": "runnr",
+		"body": [
+			".declare {",
+			"\t.$0",
+			"}"
+		],
+		"declare": "Declare the extensions"
+	},
+
+	"var": {
+		"prefix": [".var", "var"],
+		"scope": "runnr",
+		"body": [
+			".var {",
+			"\t$0",
+			"}"
+		],
+		"declare": "Declare the variables"
+	}
+}

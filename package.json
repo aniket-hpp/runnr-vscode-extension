@@ -1,0 +1,35 @@
+{
+  "name": "runnr",
+  "displayName": "runnr",
+  "description": "runnr scripting language",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/aniket-hpp/runnr-vscode-extension.git"
+  },
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Snippets"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "runnr",
+      "aliases": ["runnr", "runnr"],
+      "extensions": [".runnr"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "runnr",
+      "scopeName": "source.runnr",
+      "path": "./syntaxes/runnr.tmLanguage.json"
+    }],
+    "snippets": [
+      {
+        "language": "runnr",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
