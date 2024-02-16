@@ -3,6 +3,12 @@
   "displayName": "runnr",
   "description": "runnr scripting language",
   "version": "0.1.0",
+  "publisher": "aniketbiswas",
+  "icon": "./runnr.png",
+  "author": {
+    "name": "Aniket Biswas",
+    "email": "contact.aniket.biswas@gmail.com"
+  },
   "repository": {
     "url": "https://github.com/aniket-hpp/runnr-vscode-extension.git"
   },
